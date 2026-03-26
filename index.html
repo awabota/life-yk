@@ -38,9 +38,12 @@ body {
   font-size: 24px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 20px;
-  line-height: 1.4;
+  margin: 0 auto 20px;
+  line-height: 1.5;
   color: #111;
+  max-width: 300px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .text {
@@ -68,13 +71,18 @@ body {
 }
 
 .keyword {
-  display: inline-block;
+  display: block;
   font-size: 18px;
   font-weight: 700;
   color: #222;
   background: #fff3cd;
-  padding: 2px 8px;
+  padding: 10px 12px;
   border-radius: 8px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 8px 0 10px;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 .btn {
@@ -136,7 +144,10 @@ body {
     <div class="guide">
       <strong>登録後の流れ</strong>
       公式LINEに登録後、<br>
-      <span class="keyword">「ライフプラン構造コンサルタント養成講座」</span> とメッセージを送信してください。<br>
+      下記の文言を送信してください。<br>
+
+      <span class="keyword">ライフプラン構造コンサルタント養成講座</span>
+
       確認後、順番にご案内いたします。
     </div>
 
